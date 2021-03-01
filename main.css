@@ -1,0 +1,52 @@
+@import url('./reset.css');
+
+header {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+header form {
+  width: 300px;
+  margin: 0 20px;
+}
+
+.searchBox {
+  border: 1px solid #969696;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 0 15px;
+}
+
+.searchBox input {
+  border: none;
+  border-bottom: 1px solid #212121;
+}
+
+.searchBox input:focus {
+  outline: none;
+}
+
+.searchBox button {
+  border: none;
+  background-color: #ffffff;
+}
+
+.searchBox input:focus {
+  outline: none;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
